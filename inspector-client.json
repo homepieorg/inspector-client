@@ -1,7 +1,10 @@
 {
   "client_id": "https://homepieorg.github.io/inspector-client/inspector-client.json",
   "client_name": "MCP Inspector (dummy)",
-  "redirect_uris": ["http://localhost:6274/oauth/callback"],
+  "redirect_uris": [
+    "http://localhost:6274/oauth/callback",
+    "http://127.0.0.1:6274/oauth/callback"
+  ],
   "grant_types": ["authorization_code", "refresh_token"],
   "response_types": ["code"],
   "token_endpoint_auth_method": "none"
